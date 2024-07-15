@@ -242,17 +242,6 @@ def create_set_n_emission(df):
 
 set1, emission1, set0, emission0 = create_set_n_emission(df)
 
-#def caclculate_probablitylist(emission, set):
-  #probality_list = []
-  #print("CR:",len(set))
-  #print("Card(Emissions(Set))",len(emission))
-  #for a in emission:
-    #print(f"There are {set.count(a)} of {a}")
-    #probablity_value= set.count(a)/len(set)
-    #probality_list.append(probablity_value)
-  #return probality_list
-
-# dorkar nai ei function er
 
 """Calculate the probability of the emission given state 0/1"""
 
